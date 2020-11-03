@@ -54,3 +54,7 @@
 ;; they are implemented.
 (setq
 projectile-project-search-path '("~/go/src/github.com/zpetrovic/"))
+
+(setq default-frame-alist
+      '((top . 100) (left . 300)
+        (width . 160) (height . 50)))
